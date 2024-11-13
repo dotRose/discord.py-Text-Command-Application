@@ -8,6 +8,7 @@ Technologies used in the project:
 *   Python 3.0
 
 <h2>📂 Project Contents: </h2>
+
 ```
  /README.md
  /main.py
