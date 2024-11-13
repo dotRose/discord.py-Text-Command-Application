@@ -1,6 +1,6 @@
-<h1 align="center" id="title">(Discord Py) Text Command based Application</h1>
+<h1 align="center" id="title">(Discord Py) Bot Template</h1>
 
-<p id="description">This is an Text Command based Discord Python Engine</p>
+<p id="description">This is an Text Command based Discord Bot Template</p>
 
 Technologies used in the project:
 
