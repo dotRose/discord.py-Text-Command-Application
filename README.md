@@ -17,7 +17,7 @@ Technologies used in the project:
  /events/on_message.py
  /events/on_ready.py
  /commands/utility/example.py
- /commands/utility/ping.y
+ /commands/utility/ping.py
  /commands/utility/test.py
 ```
 
@@ -27,7 +27,7 @@ This project is licensed under the MIT License
 ```
 MIT License
 
-Copyright (c) dotRose
+Copyright (c) 2024 dotRose
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
