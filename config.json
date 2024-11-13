@@ -1,3 +1,4 @@
 {
-  "token":"Insert your discord bot token here" 
+  "token":"Insert your discord bot token here",
+  "prefix":"!"
 }
