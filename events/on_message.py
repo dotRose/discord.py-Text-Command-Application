@@ -1,12 +1,13 @@
 name = 'on_message'
 
+config = json.load(open('config.json'))
+prefix = config['prefix']
 async def execute(client, message):
-    if message.author == client.user or not message.content.startswith('!'): #Check if message is a command
+    if message.author == client.user or not message.content.startswith(prefix): #Check if message is a command
         return
-
     # Get the command name from the message
     print(message.content)
-    command_name = message.content[1:].split(' ')[0]  # strip the prefix and split
+    command_name = message.content[len(prefix):].split(' ')[0]  # strip the prefix and split
 
     # Check if the command exists in the collection
     command = client.Commands.get(command_name)
