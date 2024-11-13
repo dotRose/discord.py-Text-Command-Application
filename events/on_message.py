@@ -1,5 +1,4 @@
 name = 'on_message'
-once = False  # Optional, defaults to False
 
 async def execute(client, message):
     if message.author == client.user or not message.content.startswith('!'): #Check if message is a command
@@ -13,7 +12,6 @@ async def execute(client, message):
     command = client.Commands.get(command_name)
 
     if command:
-        # Execute the command
         await command.execute(message, client)
     else:
         await message.channel.send('## [INFO]  \n**Command `'+command_name+'` not found.**')
